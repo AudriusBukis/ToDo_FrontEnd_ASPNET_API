@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../RegistrationForm/style.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+    />
+    <style>
+      body {
+        font-family: "Audiowide", sans-serif;
+      }
+    </style>
+    <title>Registration</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title"><h2>Registration Form</h2></div>
+      <form id="submit">
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Enter Your Name"
+          required
+        />
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Enter Your Surname"
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <br />
+        <button type="submit" class="item" id="submitBtn">Submit</button>
+        <button class="item">
+          <a href="../LogIn/index.html">Already a user? Login!</a>
+        </button>
+        <button class="item">
+          <a href="../index.html">Get Me Back!</a>
+        </button>
+      </form>
+    </div>
+    <div id="message"></div>
+  </body>
+  <script src="../RegistrationForm/script.js"></script>
+</html>

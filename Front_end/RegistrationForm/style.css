@@ -1,0 +1,30 @@
+.container {
+  max-width: 960px;
+  margin: 100px auto;
+  padding: 10px;
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.title {
+  text-align: center;
+  color: steelblue;
+}
+
+label {
+  margin: 1px auto;
+}
+input {
+  border-color: steelblue;
+  text-align: center;
+  margin: 5px auto;
+  width: 400px;
+  border-radius: 15px;
+  height: 35px;
+}
+
+input:hover {
+  border-color: blue;
+}
+
