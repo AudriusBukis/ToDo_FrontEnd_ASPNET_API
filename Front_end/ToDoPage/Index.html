@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoPage</title>
+    <link rel="stylesheet" href="../ToDoPage/style.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <style>
+      body {font-family: "Audiowide", sans-serif;}
+    </style>
+</head>
+<body>
+    <main>
+        <span class="span1">
+            <h1 class="h1">Name LastName</h1>
+            <button class="button" id="add">
+                ADD 
+            </button>
+            <button class="button" id="logoff">
+                <a href="../index.html">LOG OFF</a>
+            </button>
+        </span>
+        <section>
+            <div class="toDoContainer">
+                <div id="toDoCardInput">
+                    <h3 class="h3ToDoCard">New To Do Form</h3>
+                    <label class="label" for="toDoType"><b>Type</b></label> 
+                    <br>
+                    <input type="text" id="tDType" name="toDoType" maxlength="40" required> 
+                    <br>
+                    <label class="label" for="cText"><b>Content</b></label> 
+                    <br>
+                    <textarea type="text" id="contentText" name="cText" maxlength="280" required></textarea>
+                    <br>
+                    <label class="label" for="eDate" ><b>End date</b></label> 
+                    <br>
+                    <input type="date" id="endDate" name="eDate" required> 
+                    <br>
+                    <button id="saveToDoCard">Save</button> 
+                    <button id="saveEditToDoCard">Save Edit</button>
+                    <button id="closeToDoCard">Close</button>
+                </div>
+            </div>
+        </section>
+        <span class="span2">
+        </span>
+    </main>
+    <script src="/ToDoPage/script.js"></script>
+    
+</body>
+</html>
